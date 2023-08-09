@@ -609,8 +609,14 @@
 
   .news-letter .right .news-input {
     margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
   }
 
+  .news-letter .right input{
+    width: 100%;
+  }
   /* -----footer------- */
 
   footer {
