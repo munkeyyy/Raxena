@@ -6,6 +6,9 @@
   body {
     overflow-x: hidden;
   }
+  .scroll-top{
+    display: none;
+  }
   /* -----------navbar------- */
 
   .main .header header {
