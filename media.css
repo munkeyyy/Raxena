@@ -604,7 +604,7 @@
     margin-top: 20px;
     /* justify-content: center; */
     align-items: start;
-    padding: 20px 25px;
+    padding: 10px 25px;
   }
 
   .news-letter .right .news-input {
@@ -612,6 +612,7 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
+    width: 78vw;
   }
 
   .news-letter .right input{

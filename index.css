@@ -363,10 +363,10 @@ nav .logo a img {
 .index-page .index-hero .hero-btn {
   text-align: center;
   color: #fff;
-  padding: 20px 20px;
+  padding: 15px 20px;
   letter-spacing: 0px;
   font-weight: 600;
-  font-size: 25px;
+  font-size: 21px;
   background-color: #fe982f;
   position: relative;
   z-index: 1;
@@ -540,6 +540,7 @@ nav .logo a img {
 .why-us .cont {
   background: url(images/why-cont-bg.png) no-repeat;
   background-size: cover;
+  background-position: center top;
   height: 540px;
   width: 62%;
   position: relative;
@@ -556,7 +557,7 @@ nav .logo a img {
   top: 0;
   background-color: rgb(8, 21, 40);
   width: 100%;
-  opacity: 0.9;
+  opacity: 0.69;
   z-index: -1;
 }
 
@@ -1282,11 +1283,12 @@ nav .logo a img {
   /* padding: 0 5px; */
   margin: 10px 7px;
   overflow: hidden;
+  width: 20vw;
 }
 
 .projects .cards .card .card-img {
-  height: 335px;
-  width: 290px;
+  height: auto;
+  width:20vw;
   overflow: hidden;
   position: relative;
 }
@@ -1499,6 +1501,8 @@ nav .logo a img {
   border-bottom: 1px solid #6666;
 }
 
+
+
 .blog-left .card .blog-function .comments,
 .blog-left .card .blog-function .profile {
   display: flex;
@@ -1581,7 +1585,7 @@ nav .logo a img {
   display: inline-flex;
   align-items: center;
   /* justify-content: start; */
-  border-bottom: 1px solid #6666;
+  /* border-bottom: 1px solid #6666; */
 }
 
 .blog-right .card11 .blog-function .comments,
@@ -2140,7 +2144,7 @@ select:focus {
 
 .contact .cont-bod .right {
   padding: 70px 0;
-  height: 86vh;
+  height: 97vh;
   background: url(images/about-contact-right.jpg);
   background-repeat: no-repeat;
   background-position: right center;
@@ -2239,8 +2243,8 @@ select:focus {
   padding: 80px 0;
   display: flex;
   align-items: center;
-  flex-wrap: wrap;
-  justify-content: center;
+  /* flex-wrap: wrap; */
+  /* justify-content: center; */
 }
 
 .about-us .our-team .team-cards .teamcard {
@@ -2542,7 +2546,7 @@ select:focus {
 }
 
 .our-team-page-content {
-  padding: 80px 150px;
+  padding: 80px 71px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -2698,7 +2702,7 @@ select:focus {
 }
 
 .blog-page-content {
-  padding: 80px 150px;
+  padding: 80px 110px;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
@@ -2709,7 +2713,7 @@ select:focus {
   position: relative;
   overflow: hidden;
   width: 402px;
-  margin: 0 25px 30px;
+  margin: 0 10px 30px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.07);
   transition: transform 0.5s;
 }
@@ -2887,7 +2891,7 @@ select:focus {
 }
 
 .contact-us-page-content {
-  padding: 80px 150px;
+  padding: 80px 74px;
 
   /* justify-content: space-between; */
 }
@@ -2902,7 +2906,7 @@ select:focus {
   padding: 30px;
   text-align: center;
   width: 420px;
-  margin: 0 15px 30px;
+  margin: 0 10px 30px;
   /* box-shadow: 0 0 20px 0 rgba(0, 0, 0, .07); */
   border: 1px solid #6666;
 }
@@ -3082,6 +3086,7 @@ textarea:focus {
   width: 30%;
   background-color: #081528;
   padding: 38px 30px 31px 150px;
+  height: 124px;
 }
 
 .news-letter .right {
@@ -3091,6 +3096,7 @@ textarea:focus {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  height: 124px;
 }
 
 .news-letter .right .subscribe {
