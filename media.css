@@ -595,16 +595,18 @@
   .news-letter .left {
     padding: 0;
     width: 100%;
+    height: 100%;
     background-color: transparent;
   }
 
   .news-letter .right {
+    height: 100%;
     width: 100%;
     flex-direction: column;
     margin-top: 20px;
     /* justify-content: center; */
     align-items: start;
-    padding: 10px 25px;
+    padding: 20px 25px;
   }
 
   .news-letter .right .news-input {
