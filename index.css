@@ -221,7 +221,7 @@ nav .logo a img {
   left: -83px;
   top: 0px;
   height: 20px;
-  width: 59px;
+  width: 100%;
   padding: 10px;
   background-color: rgb(255, 255, 255);
   color: black;
@@ -998,15 +998,20 @@ nav .logo a img {
   position: absolute;
   top: 0;
   left: 0;
-  width: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
   height: 100%;
   background-color: white;
   z-index: -1;
-  transition: all 0.3s;
+  transition: transform 0.3s;
+  transform: scaleX(0);
+  transform-origin: right;
 }
 
 .appointment .appointment-content .btn:hover::before {
-  width: 100%;
+ transform: scaleX(1);
+ transform-origin:left;
 }
 
 /* --------consultancy----------- */
@@ -3316,15 +3321,20 @@ footer .free-estimate button::before {
   content: "";
   height: 100%;
   background-color: #fc7f02;
-  width: 0;
+  width: 100%;
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   z-index: -1;
-  transition: all 0.5s;
+  transition: transform 0.5s;
+  transform-origin: right;
+  transform: scaleX(0);
 }
 
 footer .free-estimate button:hover::before {
-  width: 100%;
+  transform: scaleX(1);
+  transform-origin:left;
 }
 footer .free-estimate button a {
   color: white;

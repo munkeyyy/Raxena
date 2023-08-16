@@ -20,6 +20,7 @@
 
   .mobilenav {
     display: block;
+    position: relative;
   }
 
   .mobilenav .topbar {
@@ -51,7 +52,7 @@
   .mobilenav .topbar .ham:hover + .mobile-logo + .search + .menu {
     left: 0;
   }
-
+ 
   .mobilenav .topbar .menu ul {
     display: flex;
     align-items: flex-start;
